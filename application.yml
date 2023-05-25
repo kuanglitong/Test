@@ -1,8 +1,7 @@
-server:
+  server:
     port: 0
-    
-eureka:
+
+  eureka:
     client:
-        service-url:
-            defaultZone:http://eureka1:8761/eureka/
-    
+      service-url:
+        defaultZone:http://eureka1:8761/eureka/
