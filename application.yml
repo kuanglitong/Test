@@ -5,3 +5,8 @@
     client:
       service-url:
         defaultZone:http://eureka1:8761/eureka/
+
+spring:
+  data:
+    mongodb:
+      password: '{cipher}e57d3ccedb973fdfa9c5d2b42df22c453e171efcec807f527c427036c3f7ebee' 
